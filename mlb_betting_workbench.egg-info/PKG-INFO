@@ -1,0 +1,330 @@
+Metadata-Version: 2.4
+Name: mlb-betting-workbench
+Version: 1.1.5
+Summary: Plain-English MLB betting package with Retrosheet, DraftKings, FanDuel, archives, and fixed multi-book comparison
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0
+Requires-Dist: pyarrow>=14.0
+Requires-Dist: requests>=2.31
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: joblib>=1.3
+Requires-Dist: numpy>=1.26
+Provides-Extra: browser
+Requires-Dist: playwright>=1.40; extra == "browser"
+
+# MLB Betting Workbench for Beginners
+
+A plain-English MLB betting package that combines:
+
+- **historical truth** from Retrosheet season zip files
+- **live sportsbook prices** from DraftKings captures
+- **per-zip historical caching** so you do not re-process every archive every run
+
+## Main output files
+
+### Historical results
+- `player-directory.parquet`
+- `actual-game-results.parquet`
+- `actual-team-game-results.parquet`
+- `actual-hitter-stats-by-game.parquet`
+- `actual-pitcher-stats-by-game.parquet`
+
+### DraftKings lines
+- `draftkings-mlb-lines.parquet`
+- `draftkings-mlb-game-lines.parquet`
+- `draftkings-mlb-player-props.parquet`
+- `draftkings-mlb-priced-board.parquet`
+
+## Historical cache
+
+Historical parsing is cached under:
+
+- `.cache/historical/`
+
+Each zip file gets its own cache folder.
+
+The cache key for each zip is built from:
+- zip file name
+- file size
+- modified time
+
+If only one season file changes, only that season is rebuilt.
+The final output tables are then recombined from the cached season slices.
+
+Use `--force-rebuild` to ignore cache and rebuild every zip.
+
+## What the priced board adds
+
+- long decimal probability fields
+- decimal odds
+- properly signed American odds like `+150` or `-120`
+- a clean display label like:
+  - `Over 1.500`
+  - `Under 1.500`
+  - `Yes`
+  - `No`
+  - `Home`
+  - `Away`
+
+## Install
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+## Build historical data from Retrosheet zips
+
+```bash
+python -m mlb_betting_data.cli build-historical-betting-data \
+  --zip-dir /path/to/zips \
+  --out-dir artifacts
+```
+
+Force a full rebuild:
+
+```bash
+python -m mlb_betting_data.cli build-historical-betting-data \
+  --zip-dir /path/to/zips \
+  --out-dir artifacts \
+  --force-rebuild
+```
+
+## Build DraftKings MLB files from saved JSON or HTML captures
+
+```bash
+python -m mlb_betting_data.cli build-draftkings-mlb-board \
+  --capture-file /path/to/capture1.json \
+  --capture-file /path/to/capture2.html \
+  --out-dir artifacts
+```
+
+## Build DraftKings MLB files from live capture
+
+```bash
+python -m mlb_betting_data.cli build-draftkings-mlb-board \
+  --use-live-capture \
+  --out-dir artifacts
+```
+
+
+## Display style
+
+- Short, readable numbers only
+  - `52.4%` instead of `0.523947`
+  - `1.91` instead of `1.909876`
+  - `+150` and `-120` for American odds
+- Proper betting symbols when needed
+- Plain-English file names and column names
+- Beginner bettor wording in reports
+
+
+## History-trained model pipeline
+
+This version adds a real **history-trained player-performance model** pipeline.
+
+What it can train from the historical results files:
+- hitter props:
+  - hits
+  - total bases
+  - home runs
+  - runs scored
+  - runs batted in
+  - walks
+  - strikeouts
+  - stolen bases
+- pitcher props:
+  - strikeouts
+  - outs recorded
+  - earned runs
+  - hits allowed
+  - walks allowed
+  - home runs allowed
+
+What it writes:
+- `history trained model summary.csv`
+- `latest player form.parquet`
+- `player prop fair prices.parquet`
+- `best bets.csv`
+
+Important:
+- this is **history-trained on player performance**
+- it is **not yet history-trained on old sportsbook prices**
+- that means it can learn what players usually do, then compare that to a current prop board
+- but it still does not learn bookmaker mistakes from an archive of old book prices, because those old prices were not uploaded here
+
+## Train the models
+
+```bash
+python -m mlb_betting_data.cli train-history-models --out-dir artifacts
+```
+
+This expects these files to already exist in the same `out-dir`:
+- `actual hitter stats by game.parquet`
+- `actual pitcher stats by game.parquet`
+- `player directory.parquet`
+
+## Score a player prop board
+
+```bash
+python -m mlb_betting_data.cli score-player-prop-board   --board-file "artifacts/draftkings mlb player props.parquet"   --out-dir artifacts
+```
+
+This writes:
+- `player prop fair prices.parquet`
+- `best bets.csv`
+
+
+## Team and game models
+
+This version adds **history-trained team and game models** too.
+
+What it can now learn from historical team and game results:
+- team to win
+- game total runs
+- home team runs
+- away team runs
+- run line style win margin
+- team total runs
+
+What it writes:
+- `latest team form.parquet`
+- `game fair prices.parquet`
+- `game best bets.csv`
+
+What "fully history-trained" means here:
+- the player models learn from past hitter and pitcher game results
+- the team and game models learn from past team and game results
+- both are trained using past seasons only and tested on later seasons
+
+Important:
+- this is now **fully history-trained for player performance and team or game performance**
+- it is still **not fully history-trained on old sportsbook prices**
+- that means it learns what usually happens in real games, then compares that to the current board
+- it still does not learn bookmaker mistakes from an archive of old game and prop prices, because those old prices were not uploaded here
+
+## Score a game board
+
+```bash
+python -m mlb_betting_data.cli score-game-board   --board-file "artifacts/draftkings mlb game lines.parquet"   --out-dir artifacts
+```
+
+This writes:
+- `game fair prices.parquet`
+- `game best bets.csv`
+
+
+## Build your own odds archive from now on
+
+This version adds a real **DraftKings archive** layer.
+
+What it does:
+- saves every raw DraftKings capture with a timestamp
+- saves the normalized MLB lines for that same timestamp
+- saves separate files for:
+  - game lines
+  - player props
+  - priced board
+  - beginner betting report
+- rebuilds one combined historical archive file from all saved snapshots
+
+Why this matters:
+- you stop losing old prices
+- you can backtest later
+- you can compare today's line to how it moved earlier in the day
+- you can slowly build the missing old price history yourself from now on
+
+## Archive files
+
+Inside your output folder, this package writes:
+
+- `archive/draftkings/raw/YYYY/MM/DD/HHMMSSZ/`
+- `archive/draftkings/boards/YYYY/MM/DD/HHMMSSZ/`
+- `draftkings mlb archive history.parquet`
+- `draftkings mlb archive history.csv`
+
+## Save one snapshot
+
+```bash
+python -m mlb_betting_data.cli capture-draftkings-snapshot \
+  --use-live-capture \
+  --out-dir artifacts
+```
+
+Or from saved files:
+
+```bash
+python -m mlb_betting_data.cli capture-draftkings-snapshot \
+  --capture-file /path/to/capture1.json \
+  --capture-file /path/to/capture2.html \
+  --out-dir artifacts
+```
+
+## Rebuild the combined archive
+
+```bash
+python -m mlb_betting_data.cli rebuild-draftkings-history --out-dir artifacts
+```
+
+## Simple daily habit
+
+A very practical setup is:
+- save one snapshot in the morning
+- save one snapshot around lineup time
+- save one snapshot close to first pitch
+
+That slowly builds a real line history you can train against later.
+
+
+Patched in 1.0.2:
+- better player-name matching
+- safer game scoring fallback when team features are missing
+- probability clamp to stop garbage fair prices
+- stronger alias support for common DraftKings MLB prop names
+
+
+## FanDuel and multi-book comparison
+
+This version adds FanDuel beside DraftKings.
+
+What it adds:
+- FanDuel capture from JSON, HTML, or live requests
+- FanDuel board files
+- FanDuel archive snapshots
+- combined two-book comparison files
+- best-price view across DraftKings and FanDuel
+
+New commands:
+
+```bash
+python -m mlb_betting_data.cli build-fanduel-mlb-board --capture-file /path/to/fanduel.json --out-dir artifacts
+python -m mlb_betting_data.cli capture-fanduel-snapshot --use-live-capture --out-dir artifacts
+python -m mlb_betting_data.cli rebuild-fanduel-history --out-dir artifacts
+python -m mlb_betting_data.cli compare-mlb-books --out-dir artifacts
+```
+
+New output files:
+- `fanduel mlb lines.parquet`
+- `fanduel mlb game lines.parquet`
+- `fanduel mlb player props.parquet`
+- `fanduel mlb priced board.parquet`
+- `fanduel mlb betting report.csv`
+- `fanduel mlb archive history.parquet`
+- `fanduel mlb archive history.csv`
+- `mlb two book comparison.parquet`
+- `mlb two book comparison.csv`
+- `mlb best price by market.parquet`
+- `mlb best price by market.csv`
+
+
+## FanDuel MLB filter fix
+
+This version fixes FanDuel MLB filtering so non-MLB events do not leak into MLB comparison outputs.
+
+
+## FanDuel 1.1.3 fix
+
+This version fixes FanDuel same-player prop comparison so FanDuel `to hit a home run` rows normalize to `selection = yes` and line-shop correctly against DraftKings.

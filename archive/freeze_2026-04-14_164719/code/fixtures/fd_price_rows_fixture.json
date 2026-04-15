@@ -1,0 +1,52 @@
+[
+  {
+    "marketId": "734.164099949",
+    "runnerDetails": [
+      {
+        "selectionId": "fd1",
+        "runnerName": "Over",
+        "handicap": 8.5,
+        "winRunnerOdds": {
+          "americanDisplayOdds": {
+            "americanOddsInt": -110
+          }
+        }
+      },
+      {
+        "selectionId": "fd2",
+        "runnerName": "Under",
+        "handicap": 8.5,
+        "winRunnerOdds": {
+          "americanDisplayOdds": {
+            "americanOddsInt": -110
+          }
+        }
+      }
+    ]
+  },
+  {
+    "marketId": "734.164201097",
+    "runnerDetails": [
+      {
+        "selectionId": "fd3",
+        "runnerName": "Over",
+        "handicap": 1.5,
+        "winRunnerOdds": {
+          "americanDisplayOdds": {
+            "americanOddsInt": 165
+          }
+        }
+      },
+      {
+        "selectionId": "fd4",
+        "runnerName": "Under",
+        "handicap": 1.5,
+        "winRunnerOdds": {
+          "americanDisplayOdds": {
+            "americanOddsInt": -200
+          }
+        }
+      }
+    ]
+  }
+]

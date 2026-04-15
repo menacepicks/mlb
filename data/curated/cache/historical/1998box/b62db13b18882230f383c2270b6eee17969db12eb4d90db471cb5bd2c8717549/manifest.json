@@ -1,0 +1,21 @@
+{
+  "cache_key": "b62db13b18882230f383c2270b6eee17969db12eb4d90db471cb5bd2c8717549",
+  "row_counts": {
+    "actual-game-results": 2432,
+    "actual-hitter-stats-by-game": 0,
+    "actual-pitcher-stats-by-game": 4864,
+    "actual-team-game-results": 4864,
+    "player-directory": 1319
+  },
+  "source_signature": {
+    "files": [
+      {
+        "mtime_ns": 1776119685020018835,
+        "name": "1998box.zip",
+        "path": "/mnt/data/retrosheet_tiny2/1998box.zip",
+        "size": 1620672
+      }
+    ]
+  },
+  "zip_file": "/mnt/data/retrosheet_tiny2/1998box.zip"
+}

@@ -1,0 +1,11 @@
+event_id,market_group_key,market_family,scope,segment,participant,team_name,line,milestone_value,book,selection,price_american,fair_prob,model_prob,edge_pct_points
+33984819,33984819|game|full_game|game_total_runs|game|ou_or_side|8.5,game_total_runs,game,full_game,,,8.5,,DraftKings,Over,-105.0,0.4891657638136511,0.5595,7.033423618634887
+33984819,33984819|game|full_game|game_total_runs|game|ou_or_side|8.5,game_total_runs,game,full_game,,,8.5,,DraftKings,Under,-115.0,0.5108342361863488,0.436,-7.483423618634882
+33984819,33984819|player|full_game|hits|pete_alonso|ou_or_side|1.5,hits,player,full_game,Pete Alonso,ARI Diamondbacks,1.5,,DraftKings,Over,177.0,0.34765055511943477,0.5075,15.984944488056518
+33984819,33984819|player|full_game|hits|pete_alonso|ou_or_side|1.5,hits,player,full_game,Pete Alonso,ARI Diamondbacks,1.5,,DraftKings,Under,-210.0,0.6523494448805651,0.495,-15.734944488056513
+33984819,33984819|team|full_game|game_total_runs|bal_orioles|ou_or_side|4.5,game_total_runs,team,full_game,,BAL Orioles,4.5,,DraftKings,Over,-102.0,0.4826358742837298,0.948,46.53641257162702
+33984819,33984819|team|full_game|game_total_runs|bal_orioles|ou_or_side|4.5,game_total_runs,team,full_game,,BAL Orioles,4.5,,DraftKings,Under,-118.0,0.5173641257162701,0.0465,-47.086412571627015
+35487026,35487026|game|full_game|game_total_runs|game|ou_or_side|8.5,game_total_runs,game,full_game,,,8.5,,FanDuel,Over,-110.0,0.5,,
+35487026,35487026|game|full_game|game_total_runs|game|ou_or_side|8.5,game_total_runs,game,full_game,,,8.5,,FanDuel,Under,-110.0,0.5,,
+35487026,35487026|player|full_game|hits|pete_alonso|ou_or_side|1.5,hits,player,full_game,Pete Alonso,,1.5,,FanDuel,Over,165.0,0.3614457831325302,,
+35487026,35487026|player|full_game|hits|pete_alonso|ou_or_side|1.5,hits,player,full_game,Pete Alonso,,1.5,,FanDuel,Under,-200.0,0.6385542168674698,,

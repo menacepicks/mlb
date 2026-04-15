@@ -1,0 +1,5 @@
+﻿freeze_timestamp=2026-04-14_164719
+project_root=C:\Users\User\Desktop\mlb
+python_version=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+
+Python 3.14.3

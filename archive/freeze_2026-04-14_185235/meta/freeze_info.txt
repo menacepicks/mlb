@@ -1,0 +1,3 @@
+﻿freeze_timestamp=2026-04-14_185235
+project_root=C:\Users\User\Desktop\mlb
+notes=Frozen after Unabated-only live board + projection builder working state

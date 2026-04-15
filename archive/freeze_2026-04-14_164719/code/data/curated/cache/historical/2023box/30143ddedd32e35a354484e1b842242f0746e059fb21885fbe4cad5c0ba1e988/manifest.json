@@ -1,0 +1,21 @@
+{
+  "cache_key": "30143ddedd32e35a354484e1b842242f0746e059fb21885fbe4cad5c0ba1e988",
+  "row_counts": {
+    "actual-game-results": 2430,
+    "actual-hitter-stats-by-game": 0,
+    "actual-pitcher-stats-by-game": 4860,
+    "actual-team-game-results": 4860,
+    "player-directory": 1614
+  },
+  "source_signature": {
+    "files": [
+      {
+        "mtime_ns": 1776119685036567293,
+        "name": "2023box.zip",
+        "path": "/mnt/data/retrosheet_tiny2/2023box.zip",
+        "size": 1708661
+      }
+    ]
+  },
+  "zip_file": "/mnt/data/retrosheet_tiny2/2023box.zip"
+}

@@ -1,0 +1,36 @@
+Target,Split,Rows,Average miss,Scope,Market,Reason,Model file
+Hits,Skipped,0,,Hitter,Hits,No hitter training rows,
+Total Bases,Skipped,0,,Hitter,Total Bases,No hitter training rows,
+Home Runs,Skipped,0,,Hitter,Home Runs,No hitter training rows,
+Runs Scored,Skipped,0,,Hitter,Runs Scored,No hitter training rows,
+Runs Batted In,Skipped,0,,Hitter,Runs Batted In,No hitter training rows,
+Walks,Skipped,0,,Hitter,Walks,No hitter training rows,
+Strikeouts,Skipped,0,,Hitter,Strikeouts,No hitter training rows,
+Stolen Bases,Skipped,0,,Hitter,Stolen Bases,No hitter training rows,
+Strikeouts,Train,3652,0.0,Pitcher,Pitcher Strikeouts,,pitcher pitcher strikeouts.joblib
+Strikeouts,Validation,3348,0.0,Pitcher,Pitcher Strikeouts,,pitcher pitcher strikeouts.joblib
+Strikeouts,Test,4305,0.0,Pitcher,Pitcher Strikeouts,,pitcher pitcher strikeouts.joblib
+Outs Recorded,Train,3652,0.0,Pitcher,Outs Recorded,,pitcher outs recorded.joblib
+Outs Recorded,Validation,3348,0.0,Pitcher,Outs Recorded,,pitcher outs recorded.joblib
+Outs Recorded,Test,4305,0.0,Pitcher,Outs Recorded,,pitcher outs recorded.joblib
+Earned Runs,Train,3652,0.0,Pitcher,Earned Runs Allowed,,pitcher earned runs allowed.joblib
+Earned Runs,Validation,3348,0.0,Pitcher,Earned Runs Allowed,,pitcher earned runs allowed.joblib
+Earned Runs,Test,4305,0.0,Pitcher,Earned Runs Allowed,,pitcher earned runs allowed.joblib
+Hits Allowed,Train,3652,0.0,Pitcher,Hits Allowed,,pitcher hits allowed.joblib
+Hits Allowed,Validation,3348,0.0,Pitcher,Hits Allowed,,pitcher hits allowed.joblib
+Hits Allowed,Test,4305,0.0,Pitcher,Hits Allowed,,pitcher hits allowed.joblib
+Walks Allowed,Train,3652,0.0,Pitcher,Walks Allowed,,pitcher walks allowed.joblib
+Walks Allowed,Validation,3348,0.0,Pitcher,Walks Allowed,,pitcher walks allowed.joblib
+Walks Allowed,Test,4305,0.0,Pitcher,Walks Allowed,,pitcher walks allowed.joblib
+Home Runs Allowed,Train,3652,0.0,Pitcher,Home Runs Allowed,,pitcher home runs allowed.joblib
+Home Runs Allowed,Validation,3348,0.0,Pitcher,Home Runs Allowed,,pitcher home runs allowed.joblib
+Home Runs Allowed,Test,4305,0.0,Pitcher,Home Runs Allowed,,pitcher home runs allowed.joblib
+Home Runs Target,Train,2569,0.0,Game,Home Team Runs,,game home team runs.joblib
+Home Runs Target,Validation,2630,0.0,Game,Home Team Runs,,game home team runs.joblib
+Home Runs Target,Test,2603,0.0,Game,Home Team Runs,,game home team runs.joblib
+Away Runs Target,Train,2569,0.0,Game,Away Team Runs,,game away team runs.joblib
+Away Runs Target,Validation,2630,0.0,Game,Away Team Runs,,game away team runs.joblib
+Away Runs Target,Test,2603,0.0,Game,Away Team Runs,,game away team runs.joblib
+Total Runs Target,Train,2569,0.0,Game,Game Total Runs,,game game total runs.joblib
+Total Runs Target,Validation,2630,0.0,Game,Game Total Runs,,game game total runs.joblib
+Total Runs Target,Test,2603,0.0,Game,Game Total Runs,,game game total runs.joblib

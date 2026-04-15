@@ -1,0 +1,23 @@
+[
+  {
+    "events": {
+      "35487026": {
+        "eventId": 35487026,
+        "homeTeamName": "BAL Orioles",
+        "awayTeamName": "ARI Diamondbacks"
+      }
+    },
+    "markets": {
+      "734.164099949": {
+        "marketId": "734.164099949",
+        "eventId": 35487026,
+        "marketName": "Game Total Runs"
+      },
+      "734.164201097": {
+        "marketId": "734.164201097",
+        "eventId": 35487026,
+        "marketName": "Pete Alonso Hits O/U"
+      }
+    }
+  }
+]

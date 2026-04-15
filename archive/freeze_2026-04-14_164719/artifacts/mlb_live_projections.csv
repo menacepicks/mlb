@@ -1,0 +1,5 @@
+scope,segment,market_family,event_id,participant,team_name,projection_mean,projection_prob
+player,full_game,hits,33984819,Pete Alonso,,1.70,
+team,full_game,team_total_runs,33984819,,BAL Orioles,5.00,
+game,full_game,game_total_runs,33984819,,,9.10,
+game,full_game,moneyline,33984819,,, ,0.57

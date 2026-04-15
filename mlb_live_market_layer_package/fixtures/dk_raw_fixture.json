@@ -1,0 +1,118 @@
+{
+  "events": [
+    {
+      "id": "33984819",
+      "eventId": "33984819",
+      "status": "NOT_STARTED",
+      "participants": [
+        {
+          "name": "ARI Diamondbacks",
+          "type": "Team",
+          "venueRole": "away"
+        },
+        {
+          "name": "BAL Orioles",
+          "type": "Team",
+          "venueRole": "home"
+        }
+      ]
+    }
+  ],
+  "markets": [
+    {
+      "id": "m1",
+      "eventId": "33984819",
+      "name": "Game Total Runs",
+      "marketType": {
+        "name": "Total Runs"
+      }
+    },
+    {
+      "id": "m2",
+      "eventId": "33984819",
+      "name": "Pete Alonso Hits O/U",
+      "marketType": {
+        "name": "Hits O/U"
+      }
+    },
+    {
+      "id": "m3",
+      "eventId": "33984819",
+      "name": "BAL Orioles Team Total Runs",
+      "marketType": {
+        "name": "Team Total Runs"
+      }
+    }
+  ],
+  "selections": [
+    {
+      "id": "s1",
+      "marketId": "m1",
+      "label": "Over",
+      "points": 8.5,
+      "displayOdds": {
+        "american": "-105"
+      }
+    },
+    {
+      "id": "s2",
+      "marketId": "m1",
+      "label": "Under",
+      "points": 8.5,
+      "displayOdds": {
+        "american": "-115"
+      }
+    },
+    {
+      "id": "s3",
+      "marketId": "m2",
+      "label": "Over",
+      "points": 1.5,
+      "displayOdds": {
+        "american": "+177"
+      },
+      "participants": [
+        {
+          "name": "Pete Alonso",
+          "type": "Player",
+          "venueRole": "AwayPlayer"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "marketId": "m2",
+      "label": "Under",
+      "points": 1.5,
+      "displayOdds": {
+        "american": "-210"
+      },
+      "participants": [
+        {
+          "name": "Pete Alonso",
+          "type": "Player",
+          "venueRole": "AwayPlayer"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "marketId": "m3",
+      "label": "Over",
+      "points": 4.5,
+      "displayOdds": {
+        "american": "-102"
+      }
+    },
+    {
+      "id": "s6",
+      "marketId": "m3",
+      "label": "Under",
+      "points": 4.5,
+      "displayOdds": {
+        "american": "-118"
+      }
+    }
+  ],
+  "lastUpdatedTime": "2026-04-14T19:30:56Z"
+}

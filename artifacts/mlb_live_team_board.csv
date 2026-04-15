@@ -1,0 +1,231 @@
+book,sport,event_id,market_id,selection_id,fetched_at,market_name,market_family,scope,segment,is_milestone,milestone_value,line,selection,participant,team_name,home_team,away_team,price_american,implied_prob,fair_prob,market_group_key,outcome_key,projection_mean,projection_prob,model_prob,edge_pct_points,score_status
+Novig,mlb,108812,,,,,team_total_runs,team,full_game,False,,4.5,under,,,BAL,ARI,-104.0,0.5098039215686274,0.4831081081081081,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,108812,,,,,team_total_runs,team,full_game,False,,8.0,under,,,BAL,ARI,-1000.0,0.9090909090909091,0.5676855895196506,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108812,,,,,team_total_runs,team,full_game,False,,4.5,under,,,BAL,ARI,-102.0,0.504950495049505,0.24046449975538636,eid108812:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,108812,,,,,team_total_runs,team,full_game,False,,4.5,under,,,BAL,ARI,-118.0,0.5412844036697247,0.4908772441979273,eid108812:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,108812,,,,,team_total_runs,team,full_game,False,,3.5,over,,,BAL,ARI,-128.0,0.5614035087719298,0.5091227558020727,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,108812,,,,,team_total_runs,team,full_game,False,,3.5,over,,,BAL,ARI,-120.0,0.5454545454545454,0.5168918918918919,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,108812,,,,,team_total_runs,team,full_game,False,,2.0,over,,,BAL,ARI,-225.0,0.6923076923076923,0.43231441048034935,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108812,,,,,team_total_runs,team,full_game,False,,3.5,over,,,BAL,ARI,-121.0,0.5475113122171946,0.2607325571387257,eid108812:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,108863,,,,,team_total_runs,team,full_game,False,,4.5,under,,,MIN,BOS,-142.0,0.5867768595041323,0.5543606364172068,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,108863,,,,,team_total_runs,team,full_game,False,,4.5,under,,,MIN,BOS,-124.0,0.5535714285714286,0.5399277029247453,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108863,,,,,team_total_runs,team,full_game,False,,4.5,under,,,MIN,BOS,-125.0,0.5555555555555556,0.2661957198504263,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,108863,,,,,team_total_runs,team,full_game,False,,8.0,under,,,MIN,BOS,-1000.0,0.9090909090909091,0.547945205479452,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,108863,,,,,team_total_runs,team,full_game,False,,4.5,over,,,MIN,BOS,112.0,0.4716981132075472,0.4600722970752547,eid108863:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,108863,,,,,team_total_runs,team,full_game,False,,4.5,over,,,MIN,BOS,112.0,0.4716981132075472,0.4456393635827931,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108863,,,,,team_total_runs,team,full_game,False,,4.5,over,,,MIN,BOS,107.0,0.4830917874396135,0.23147453900037068,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,108863,,,,,team_total_runs,team,full_game,False,,2.0,over,,,MIN,BOS,-300.0,0.75,0.4520547945205479,eid108863:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109042,,,,,team_total_runs,team,full_game,False,,3.5,under,,,MIL,TOR,-122.0,0.5495495495495496,0.5187593796898449,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109042,,,,,team_total_runs,team,full_game,False,,3.5,under,,,MIL,TOR,-114.0,0.5327102803738317,0.5109861135524697,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109042,,,,,team_total_runs,team,full_game,False,,3.5,under,,,MIL,TOR,-112.0,0.5283018867924528,0.24938203141181872,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109042,,,,,team_total_runs,team,full_game,False,,8.0,under,,,MIL,TOR,-3300.0,0.9705882352941176,0.592814371257485,eid109042:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109042,,,,,team_total_runs,team,full_game,False,,3.5,over,,,MIL,TOR,-104.0,0.5098039215686274,0.48124062031015497,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109042,,,,,team_total_runs,team,full_game,False,,3.5,over,,,MIL,TOR,-104.0,0.5098039215686274,0.48901388644753035,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109042,,,,,team_total_runs,team,full_game,False,,3.5,over,,,MIL,TOR,-104.0,0.5098039215686274,0.24065016756686705,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109042,,,,,team_total_runs,team,full_game,False,,2.0,over,,,MIL,TOR,-200.0,0.6666666666666666,0.40718562874251496,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109109,,,,,team_total_runs,team,full_game,False,,8.0,under,,,CIN,SF,-1400.0,0.9333333333333333,0.5482499773898888,eid109109:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109109,,,,,team_total_runs,team,full_game,False,,2.0,over,,,CIN,SF,-333.0,0.76905311778291,0.45175002261011127,eid109109:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109463,,,,,team_total_runs,team,full_game,False,,3.5,under,,,STL,CLE,116.0,0.46296296296296297,0.46809832283254943,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109463,,,,,team_total_runs,team,full_game,False,,8.0,under,,,STL,CLE,-1600.0,0.9411764705882353,0.5475285171102661,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109463,,,,,team_total_runs,team,full_game,False,,3.5,under,,,STL,CLE,118.0,0.45871559633027525,0.22668675756108414,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109463,,,,,team_total_runs,team,full_game,False,,3.5,under,,,STL,CLE,120.0,0.45454545454545453,0.46568627450980393,eid109463:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109463,,,,,team_total_runs,team,full_game,False,,4.5,over,,,STL,CLE,-111.0,0.5260663507109005,0.5319016771674505,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109463,,,,,team_total_runs,team,full_game,False,,2.0,over,,,STL,CLE,-350.0,0.7777777777777778,0.4524714828897338,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109463,,,,,team_total_runs,team,full_game,False,,4.5,over,,,STL,CLE,-107.0,0.5169082125603864,0.25544421772318104,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109463,,,,,team_total_runs,team,full_game,False,,4.5,over,,,STL,CLE,-109.0,0.5215311004784688,0.5343137254901961,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109470,,,,,team_total_runs,team,full_game,False,,8.0,under,,,STL,CLE,-2000.0,0.9523809523809523,0.5649717514124294,eid109470:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109470,,,,,team_total_runs,team,full_game,False,,2.0,over,,,STL,CLE,-275.0,0.7333333333333333,0.43502824858757067,eid109470:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109479,,,,,team_total_runs,team,full_game,False,,2.5,under,,,LAD,NYM,120.0,0.45454545454545453,0.49074074074074076,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109479,,,,,team_total_runs,team,full_game,False,,2.5,under,,,LAD,NYM,127.0,0.44052863436123346,0.4769585253456221,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109479,,,,,team_total_runs,team,full_game,False,,2.5,under,,,LAD,NYM,124.0,0.44642857142857145,0.22622717922937868,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109479,,,,,team_total_runs,team,full_game,False,,8.0,under,,,LAD,NYM,-4000.0,0.975609756097561,0.5591967197236302,eid109479:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109479,,,,,team_total_runs,team,full_game,False,,4.5,over,,,LAD,NYM,112.0,0.4716981132075472,0.5092592592592593,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109479,,,,,team_total_runs,team,full_game,False,,4.5,over,,,LAD,NYM,107.0,0.4830917874396135,0.5230414746543779,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109479,,,,,team_total_runs,team,full_game,False,,4.5,over,,,LAD,NYM,108.0,0.4807692307692308,0.24362926993933087,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109479,,,,,team_total_runs,team,full_game,False,,2.0,over,,,LAD,NYM,-333.0,0.76905311778291,0.4408032802763697,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109585,,,,,team_total_runs,team,full_game,False,,3.5,over,,,SD,SEA,-114.0,0.5327102803738317,0.5064069707842132,eid109585:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109585,,,,,team_total_runs,team,full_game,False,,3.5,over,,,SD,SEA,-125.0,0.5555555555555556,0.5238589211618258,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109585,,,,,team_total_runs,team,full_game,False,,2.0,over,,,SD,SEA,-200.0,0.6666666666666666,0.4117647058823529,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109585,,,,,team_total_runs,team,full_game,False,,3.5,over,,,SD,SEA,-109.0,0.5215311004784688,0.2432697373016215,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109585,,,,,team_total_runs,team,full_game,False,,3.5,under,,,SD,SEA,-108.0,0.5192307692307693,0.4935930292157868,eid109585:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109585,,,,,team_total_runs,team,full_game,False,,3.5,under,,,SD,SEA,-102.0,0.504950495049505,0.47614107883817425,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109585,,,,,team_total_runs,team,full_game,False,,8.0,under,,,SD,SEA,-2000.0,0.9523809523809523,0.588235294117647,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109585,,,,,team_total_runs,team,full_game,False,,3.5,under,,,SD,SEA,-107.0,0.5169082125603864,0.24111337744431866,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109612,,,,,team_total_runs,team,full_game,False,,8.0,under,,,BAL,ARI,-1400.0,0.9333333333333333,0.5664739884393064,eid109612:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109612,,,,,team_total_runs,team,full_game,False,,2.0,over,,,BAL,ARI,-250.0,0.7142857142857143,0.43352601156069365,eid109612:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109724,,,,,team_total_runs,team,full_game,False,,3.5,under,,,NYY,LAA,116.0,0.46296296296296297,0.221648533868541,eid109724:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109724,,,,,team_total_runs,team,full_game,False,,3.5,under,,,NYY,LAA,116.0,0.46296296296296297,0.4368658399098084,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109724,,,,,team_total_runs,team,full_game,False,,3.5,under,,,NYY,LAA,116.0,0.46296296296296297,0.44396358752425014,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109724,,,,,team_total_runs,team,full_game,False,,8.0,under,,,NYY,LAA,-1200.0,0.9230769230769231,0.5572755417956657,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109724,,,,,team_total_runs,team,full_game,False,,3.5,over,,,NYY,LAA,-136.0,0.576271186440678,0.27589607334416355,eid109724:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109724,,,,,team_total_runs,team,full_game,False,,3.5,over,,,NYY,LAA,-148.0,0.5967741935483871,0.5631341600901917,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109724,,,,,team_total_runs,team,full_game,False,,3.5,over,,,NYY,LAA,-138.0,0.5798319327731093,0.55603641247575,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109724,,,,,team_total_runs,team,full_game,False,,2.0,over,,,NYY,LAA,-275.0,0.7333333333333333,0.44272445820433437,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109784,,,,,team_total_runs,team,full_game,False,,8.0,under,,,ATL,MIA,-900.0,0.9,0.5294117647058824,eid109784:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109784,,,,,team_total_runs,team,full_game,False,,2.0,over,,,ATL,MIA,-400.0,0.8,0.47058823529411764,eid109784:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109954,,,,,team_total_runs,team,full_game,False,,3.5,under,,,OAK,TEX,112.0,0.4716981132075472,0.232712548309425,eid109954:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109954,,,,,team_total_runs,team,full_game,False,,3.5,under,,,OAK,TEX,118.0,0.45871559633027525,0.46580422976731867,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109954,,,,,team_total_runs,team,full_game,False,,3.5,under,,,OAK,TEX,112.0,0.4716981132075472,0.48297628156082634,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109954,,,,,team_total_runs,team,full_game,False,,8.0,under,,,OAK,TEX,-2000.0,0.9523809523809523,0.5504587155963302,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109954,,,,,team_total_runs,team,full_game,False,,4.5,over,,,OAK,TEX,-103.0,0.5073891625615764,0.25032074900909385,eid109954:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,109954,,,,,team_total_runs,team,full_game,False,,4.5,over,,,OAK,TEX,-111.0,0.5260663507109005,0.5341957702326814,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,109954,,,,,team_total_runs,team,full_game,False,,4.5,over,,,OAK,TEX,-102.0,0.504950495049505,0.5170237184391737,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,109954,,,,,team_total_runs,team,full_game,False,,2.0,over,,,OAK,TEX,-350.0,0.7777777777777778,0.4495412844036697,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110213,,,,,team_total_runs,team,full_game,False,,8.0,under,,,LAD,NYM,-4000.0,0.975609756097561,0.5494505494505494,eid110213:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110213,,,,,team_total_runs,team,full_game,False,,2.0,over,,,LAD,NYM,-400.0,0.8,0.45054945054945056,eid110213:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110236,,,,,team_total_runs,team,full_game,False,,3.5,under,,,HOU,COL,-102.0,0.504950495049505,0.4788529859583826,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110236,,,,,team_total_runs,team,full_game,False,,8.0,under,,,HOU,COL,-1600.0,0.9411764705882353,0.5405405405405406,eid110236:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110236,,,,,team_total_runs,team,full_game,False,,3.5,under,,,HOU,COL,-104.0,0.5098039215686274,0.4831081081081081,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110236,,,,,team_total_runs,team,full_game,False,,3.5,under,,,HOU,COL,-101.0,0.5024875621890548,0.24335964162725776,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110236,,,,,team_total_runs,team,full_game,False,,4.5,over,,,HOU,COL,-122.0,0.5495495495495496,0.5211470140416173,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110236,,,,,team_total_runs,team,full_game,False,,2.0,over,,,HOU,COL,-400.0,0.8,0.4594594594594595,eid110236:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110236,,,,,team_total_runs,team,full_game,False,,4.5,over,,,HOU,COL,-120.0,0.5454545454545454,0.5168918918918919,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110236,,,,,team_total_runs,team,full_game,False,,4.5,over,,,HOU,COL,-124.0,0.5535714285714286,0.2681000578110755,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110296,,,,,team_total_runs,team,full_game,False,,8.0,under,,,DET,KC,-2000.0,0.9523809523809523,0.579064587973274,eid110296:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110296,,,,,team_total_runs,team,full_game,False,,2.0,over,,,DET,KC,-225.0,0.6923076923076923,0.4209354120267261,eid110296:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110392,,,,,team_total_runs,team,full_game,False,,4.5,under,,,PHI,CHC,-111.0,0.5260663507109005,0.24425283541315945,eid110392:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110392,,,,,team_total_runs,team,full_game,False,,4.5,under,,,PHI,CHC,-108.0,0.5192307692307693,0.47093023255813954,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110392,,,,,team_total_runs,team,full_game,False,,4.5,under,,,PHI,CHC,-110.0,0.5238095238095238,0.5365261531670713,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110392,,,,,team_total_runs,team,full_game,False,,8.0,under,,,PHI,CHC,-800.0,0.8888888888888888,0.5123152709359605,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110392,,,,,team_total_runs,team,full_game,False,,4.5,over,,,PHI,CHC,-136.0,0.576271186440678,0.26756296247579875,eid110392:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110392,,,,,team_total_runs,team,full_game,False,,4.5,over,,,PHI,CHC,-140.0,0.5833333333333334,0.5290697674418604,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110392,,,,,team_total_runs,team,full_game,False,,5.5,over,,,PHI,CHC,121.0,0.45248868778280543,0.4634738468329287,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110392,,,,,team_total_runs,team,full_game,False,,2.0,over,,,PHI,CHC,-550.0,0.8461538461538461,0.48768472906403937,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110438,,,,,team_total_runs,team,full_game,False,,3.5,under,,,DET,KC,102.0,0.49504950495049505,0.2333378361708823,eid110438:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110438,,,,,team_total_runs,team,full_game,False,,3.5,under,,,DET,KC,100.0,0.5,0.4677419354838709,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110438,,,,,team_total_runs,team,full_game,False,,3.5,under,,,DET,KC,102.0,0.49504950495049505,0.4757785467128028,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110438,,,,,team_total_runs,team,full_game,False,,8.0,under,,,DET,KC,-1600.0,0.9411764705882353,0.5620608899297425,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110438,,,,,team_total_runs,team,full_game,False,,3.5,over,,,DET,KC,-127.0,0.5594713656387665,0.263702592472591,eid110438:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110438,,,,,team_total_runs,team,full_game,False,,3.5,over,,,DET,KC,-132.0,0.5689655172413793,0.532258064516129,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110438,,,,,team_total_runs,team,full_game,False,,3.5,over,,,DET,KC,-120.0,0.5454545454545454,0.5242214532871973,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110438,,,,,team_total_runs,team,full_game,False,,2.0,over,,,DET,KC,-275.0,0.7333333333333333,0.43793911007025765,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110471,,,,,team_total_runs,team,full_game,False,,3.5,under,,,CWS,TB,-119.0,0.54337899543379,0.27250482460595205,eid110471:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110471,,,,,team_total_runs,team,full_game,False,,3.5,under,,,CWS,TB,-120.0,0.5454545454545454,0.5409015025041736,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110471,,,,,team_total_runs,team,full_game,False,,3.5,under,,,CWS,TB,-119.0,0.54337899543379,0.5411017748255558,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110471,,,,,team_total_runs,team,full_game,False,,8.0,under,,,CWS,TB,-2500.0,0.9615384615384616,0.5617977528089887,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110471,,,,,team_total_runs,team,full_game,False,,4.5,over,,,CWS,TB,117.0,0.4608294930875576,0.2311062099241122,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110471,,,,,team_total_runs,team,full_game,False,,4.5,over,,,CWS,TB,117.0,0.4608294930875576,0.4588982251744442,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110471,,,,,team_total_runs,team,full_game,False,,2.0,over,,,CWS,TB,-300.0,0.75,0.4382022471910112,eid110471:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110471,,,,,team_total_runs,team,full_game,False,,4.5,over,,,CWS,TB,116.0,0.46296296296296297,0.4590984974958264,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110479,,,,,team_total_runs,team,full_game,False,,8.0,under,,,CWS,TB,-1400.0,0.9333333333333333,0.5741324921135647,eid110479:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110479,,,,,team_total_runs,team,full_game,False,,2.0,over,,,CWS,TB,-225.0,0.6923076923076923,0.42586750788643535,eid110479:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110522,,,,,team_total_runs,team,full_game,False,,8.0,under,,,ATL,MIA,-1600.0,0.9411764705882353,0.5405405405405406,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110522,,,,,team_total_runs,team,full_game,False,,3.5,under,,,ATL,MIA,-101.0,0.5024875621890548,0.49757316895597725,eid110522:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110522,,,,,team_total_runs,team,full_game,False,,3.5,under,,,ATL,MIA,100.0,0.5,0.49282296650717705,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110522,,,,,team_total_runs,team,full_game,False,,3.5,under,,,ATL,MIA,101.0,0.4975124378109453,0.24814805759968706,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110522,,,,,team_total_runs,team,full_game,False,,4.5,over,,,ATL,MIA,-109.0,0.5215311004784688,0.2601280284187341,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110522,,,,,team_total_runs,team,full_game,False,,2.0,over,,,ATL,MIA,-400.0,0.8,0.4594594594594595,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110522,,,,,team_total_runs,team,full_game,False,,4.5,over,,,ATL,MIA,-103.0,0.5073891625615764,0.5024268310440226,eid110522:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110522,,,,,team_total_runs,team,full_game,False,,4.5,over,,,ATL,MIA,-106.0,0.5145631067961165,0.507177033492823,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110823,,,,,team_total_runs,team,full_game,False,,8.0,under,,,MIN,BOS,-1400.0,0.9333333333333333,0.56,eid110823:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110823,,,,,team_total_runs,team,full_game,False,,2.0,over,,,MIN,BOS,-275.0,0.7333333333333333,0.44,eid110823:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110876,,,,,team_total_runs,team,full_game,False,,4.5,under,,,CIN,SF,-122.0,0.5495495495495496,0.5187593796898449,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110876,,,,,team_total_runs,team,full_game,False,,4.5,under,,,CIN,SF,-113.0,0.5305164319248826,0.5209715506578209,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110876,,,,,team_total_runs,team,full_game,False,,4.5,under,,,CIN,SF,-117.0,0.5391705069124424,0.2584862736625547,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110876,,,,,team_total_runs,team,full_game,False,,8.0,under,,,CIN,SF,-900.0,0.9,0.539227895392279,eid110876:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110876,,,,,team_total_runs,team,full_game,False,,4.5,over,,,CIN,SF,-104.0,0.5098039215686274,0.48124062031015497,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110876,,,,,team_total_runs,team,full_game,False,,4.5,over,,,CIN,SF,105.0,0.4878048780487805,0.4790284493421793,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110876,,,,,team_total_runs,team,full_game,False,,2.0,over,,,CIN,SF,-333.0,0.76905311778291,0.46077210460772106,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110876,,,,,team_total_runs,team,full_game,False,,4.5,over,,,CIN,SF,100.0,0.5,0.23970735634518964,eid110876:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110888,,,,,team_total_runs,team,full_game,False,,5.5,under,,,PIT,WAS,-130.0,0.5652173913043478,0.5403677058353318,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110888,,,,,team_total_runs,team,full_game,False,,5.5,under,,,PIT,WAS,-120.0,0.5454545454545454,0.4789097988319273,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110888,,,,,team_total_runs,team,full_game,False,,8.0,under,,,PIT,WAS,-500.0,0.8333333333333334,0.5293472298409215,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110888,,,,,team_total_runs,team,full_game,False,,5.5,under,,,PIT,WAS,-123.0,0.5515695067264574,0.25586444117984725,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Novig,mlb,110888,,,,,team_total_runs,team,full_game,False,,3.5,over,,,PIT,WAS,-146.0,0.5934959349593496,0.5210902011680727,eid110888:bt4:ptNone:pregame,,,,,,market_only
+FanDuel,mlb,110888,,,,,team_total_runs,team,full_game,False,,4.5,over,,,PIT,WAS,108.0,0.4807692307692308,0.45963229416466833,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110888,,,,,team_total_runs,team,full_game,False,,2.0,over,,,PIT,WAS,-286.0,0.7409326424870466,0.47065277015907836,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110888,,,,,team_total_runs,team,full_game,False,,3.5,over,,,PIT,WAS,-141.0,0.5850622406639004,0.271401195021352,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110898,,,,,team_total_runs,team,full_game,False,,8.0,under,,,OAK,TEX,-900.0,0.9,0.5294117647058824,eid110898:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110898,,,,,team_total_runs,team,full_game,False,,2.0,over,,,OAK,TEX,-400.0,0.8,0.47058823529411764,eid110898:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110921,,,,,team_total_runs,team,full_game,False,,8.0,under,,,SD,SEA,-3300.0,0.9705882352941176,0.592814371257485,eid110921:bt4:ptNone:pregame,,,,,,market_only
+Caesars,mlb,110921,,,,,team_total_runs,team,full_game,False,,2.0,over,,,SD,SEA,-200.0,0.6666666666666666,0.40718562874251496,eid110921:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,108812,,,,,team_total_runs,team,full_game,False,,0.5,under,,,BAL,ARI,-250.0,0.7142857142857143,0.6744186046511629,eid108812:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,108812,,,,,team_total_runs,team,full_game,False,,0.5,under,,,BAL,ARI,-250.0,0.7142857142857143,0.6744186046511629,eid108812:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,108812,,,,,team_total_runs,team,full_game,False,,0.5,over,,,BAL,ARI,190.0,0.3448275862068966,0.32558139534883723,eid108812:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,108812,,,,,team_total_runs,team,full_game,False,,0.5,over,,,BAL,ARI,190.0,0.3448275862068966,0.32558139534883723,eid108812:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,108863,,,,,team_total_runs,team,full_game,False,,0.5,under,,,MIN,BOS,-330.0,0.7674418604651163,0.7229381443298969,eid108863:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,108863,,,,,team_total_runs,team,full_game,False,,0.5,under,,,MIN,BOS,-330.0,0.7674418604651163,0.7229381443298969,eid108863:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,108863,,,,,team_total_runs,team,full_game,False,,0.5,over,,,MIN,BOS,240.0,0.29411764705882354,0.27706185567010305,eid108863:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,108863,,,,,team_total_runs,team,full_game,False,,0.5,over,,,MIN,BOS,240.0,0.29411764705882354,0.27706185567010305,eid108863:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109042,,,,,team_total_runs,team,full_game,False,,0.5,under,,,MIL,TOR,-400.0,0.8,0.7524752475247526,eid109042:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109042,,,,,team_total_runs,team,full_game,False,,0.5,under,,,MIL,TOR,-400.0,0.8,0.7524752475247526,eid109042:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109042,,,,,team_total_runs,team,full_game,False,,0.5,over,,,MIL,TOR,280.0,0.2631578947368421,0.24752475247524752,eid109042:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109042,,,,,team_total_runs,team,full_game,False,,0.5,over,,,MIL,TOR,280.0,0.2631578947368421,0.24752475247524752,eid109042:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109463,,,,,team_total_runs,team,full_game,False,,0.5,under,,,STL,CLE,-280.0,0.7368421052631579,0.6955128205128205,eid109463:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109463,,,,,team_total_runs,team,full_game,False,,0.5,under,,,STL,CLE,-280.0,0.7368421052631579,0.6955128205128205,eid109463:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109463,,,,,team_total_runs,team,full_game,False,,0.5,over,,,STL,CLE,210.0,0.3225806451612903,0.30448717948717946,eid109463:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109463,,,,,team_total_runs,team,full_game,False,,0.5,over,,,STL,CLE,210.0,0.3225806451612903,0.30448717948717946,eid109463:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109479,,,,,team_total_runs,team,full_game,False,,0.5,under,,,LAD,NYM,-450.0,0.8181818181818182,0.7659574468085105,eid109479:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109479,,,,,team_total_runs,team,full_game,False,,0.5,under,,,LAD,NYM,-450.0,0.8181818181818182,0.7659574468085105,eid109479:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109479,,,,,team_total_runs,team,full_game,False,,0.5,over,,,LAD,NYM,300.0,0.25,0.23404255319148934,eid109479:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109479,,,,,team_total_runs,team,full_game,False,,0.5,over,,,LAD,NYM,300.0,0.25,0.23404255319148934,eid109479:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109585,,,,,team_total_runs,team,full_game,False,,0.5,over,,,SD,SEA,270.0,0.2702702702702703,0.2534919813760993,eid109585:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109585,,,,,team_total_runs,team,full_game,False,,0.5,over,,,SD,SEA,270.0,0.2702702702702703,0.2534919813760993,eid109585:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109585,,,,,team_total_runs,team,full_game,False,,0.5,under,,,SD,SEA,-390.0,0.7959183673469388,0.7465080186239006,eid109585:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109585,,,,,team_total_runs,team,full_game,False,,0.5,under,,,SD,SEA,-390.0,0.7959183673469388,0.7465080186239006,eid109585:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109724,,,,,team_total_runs,team,full_game,False,,0.5,under,,,NYY,LAA,-220.0,0.6875,0.6498905908096281,eid109724:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109724,,,,,team_total_runs,team,full_game,False,,0.5,under,,,NYY,LAA,-220.0,0.6875,0.6498905908096281,eid109724:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109724,,,,,team_total_runs,team,full_game,False,,0.5,over,,,NYY,LAA,170.0,0.37037037037037035,0.35010940919037203,eid109724:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109724,,,,,team_total_runs,team,full_game,False,,0.5,over,,,NYY,LAA,170.0,0.37037037037037035,0.35010940919037203,eid109724:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109954,,,,,team_total_runs,team,full_game,False,,0.5,under,,,OAK,TEX,-310.0,0.7560975609756098,0.7107583774250441,eid109954:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109954,,,,,team_total_runs,team,full_game,False,,0.5,under,,,OAK,TEX,-310.0,0.7560975609756098,0.7107583774250441,eid109954:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,109954,,,,,team_total_runs,team,full_game,False,,0.5,over,,,OAK,TEX,225.0,0.3076923076923077,0.2892416225749559,eid109954:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,109954,,,,,team_total_runs,team,full_game,False,,0.5,over,,,OAK,TEX,225.0,0.3076923076923077,0.2892416225749559,eid109954:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110236,,,,,team_total_runs,team,full_game,False,,0.5,under,,,HOU,COL,-250.0,0.7142857142857143,0.6744186046511629,eid110236:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110236,,,,,team_total_runs,team,full_game,False,,0.5,under,,,HOU,COL,-250.0,0.7142857142857143,0.6744186046511629,eid110236:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110236,,,,,team_total_runs,team,full_game,False,,0.5,over,,,HOU,COL,190.0,0.3448275862068966,0.32558139534883723,eid110236:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110236,,,,,team_total_runs,team,full_game,False,,0.5,over,,,HOU,COL,190.0,0.3448275862068966,0.32558139534883723,eid110236:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110392,,,,,team_total_runs,team,full_game,False,,0.5,under,,,PHI,CHC,-200.0,0.6666666666666666,0.6341463414634145,eid110392:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110392,,,,,team_total_runs,team,full_game,False,,0.5,under,,,PHI,CHC,-200.0,0.6666666666666666,0.6341463414634145,eid110392:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110392,,,,,team_total_runs,team,full_game,False,,0.5,over,,,PHI,CHC,160.0,0.38461538461538464,0.36585365853658536,eid110392:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110392,,,,,team_total_runs,team,full_game,False,,0.5,over,,,PHI,CHC,160.0,0.38461538461538464,0.36585365853658536,eid110392:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110438,,,,,team_total_runs,team,full_game,False,,0.5,under,,,DET,KC,-350.0,0.7777777777777778,0.7313432835820896,eid110438:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110438,,,,,team_total_runs,team,full_game,False,,0.5,under,,,DET,KC,-350.0,0.7777777777777778,0.7313432835820896,eid110438:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110438,,,,,team_total_runs,team,full_game,False,,0.5,over,,,DET,KC,250.0,0.2857142857142857,0.26865671641791045,eid110438:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110438,,,,,team_total_runs,team,full_game,False,,0.5,over,,,DET,KC,250.0,0.2857142857142857,0.26865671641791045,eid110438:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110471,,,,,team_total_runs,team,full_game,False,,0.5,under,,,CWS,TB,-350.0,0.7777777777777778,0.7313432835820896,eid110471:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110471,,,,,team_total_runs,team,full_game,False,,0.5,under,,,CWS,TB,-350.0,0.7777777777777778,0.7313432835820896,eid110471:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110471,,,,,team_total_runs,team,full_game,False,,0.5,over,,,CWS,TB,250.0,0.2857142857142857,0.26865671641791045,eid110471:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110471,,,,,team_total_runs,team,full_game,False,,0.5,over,,,CWS,TB,250.0,0.2857142857142857,0.26865671641791045,eid110471:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110522,,,,,team_total_runs,team,full_game,False,,0.5,under,,,ATL,MIA,-320.0,0.7619047619047619,0.7154471544715447,eid110522:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110522,,,,,team_total_runs,team,full_game,False,,0.5,under,,,ATL,MIA,-320.0,0.7619047619047619,0.7154471544715447,eid110522:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110522,,,,,team_total_runs,team,full_game,False,,0.5,over,,,ATL,MIA,230.0,0.30303030303030304,0.28455284552845533,eid110522:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110522,,,,,team_total_runs,team,full_game,False,,0.5,over,,,ATL,MIA,230.0,0.30303030303030304,0.28455284552845533,eid110522:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110876,,,,,team_total_runs,team,full_game,False,,0.5,under,,,CIN,SF,-260.0,0.7222222222222222,0.6842105263157895,eid110876:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110876,,,,,team_total_runs,team,full_game,False,,0.5,under,,,CIN,SF,-260.0,0.7222222222222222,0.6842105263157895,eid110876:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110876,,,,,team_total_runs,team,full_game,False,,0.5,over,,,CIN,SF,200.0,0.3333333333333333,0.3157894736842105,eid110876:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110876,,,,,team_total_runs,team,full_game,False,,0.5,over,,,CIN,SF,200.0,0.3333333333333333,0.3157894736842105,eid110876:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110888,,,,,team_total_runs,team,full_game,False,,0.5,under,,,PIT,WAS,-200.0,0.6666666666666666,0.6341463414634145,eid110888:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110888,,,,,team_total_runs,team,full_game,False,,0.5,under,,,PIT,WAS,-200.0,0.6666666666666666,0.6341463414634145,eid110888:bt4:ptNone:pregame,,,,,,market_only
+TheScore US,mlb,110888,,,,,team_total_runs,team,full_game,False,,0.5,over,,,PIT,WAS,160.0,0.38461538461538464,0.36585365853658536,eid110888:bt4:ptNone:pregame,,,,,,market_only
+TheScore CA,mlb,110888,,,,,team_total_runs,team,full_game,False,,0.5,over,,,PIT,WAS,160.0,0.38461538461538464,0.36585365853658536,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108812,,,,,team_total_runs,team,full_game,False,,1.5,under,,,BAL,ARI,109.0,0.4784688995215311,0.22785359297583285,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108812,,,,,team_total_runs,team,full_game,False,,1.5,over,,,BAL,ARI,-132.0,0.5689655172413793,0.27094935013005506,eid108812:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108863,,,,,team_total_runs,team,full_game,False,,1.5,under,,,MIN,BOS,127.0,0.44052863436123346,0.2110803064893248,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,108863,,,,,team_total_runs,team,full_game,False,,1.5,over,,,MIN,BOS,-155.0,0.6078431372549019,0.2912494346598781,eid108863:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109042,,,,,team_total_runs,team,full_game,False,,1.5,under,,,MIL,TOR,-115.0,0.5348837209302325,0.2524889504078131,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109042,,,,,team_total_runs,team,full_game,False,,1.5,over,,,MIL,TOR,-120.0,0.5454545454545454,0.2574788506135011,eid109042:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109463,,,,,team_total_runs,team,full_game,False,,2.5,under,,,STL,CLE,-120.0,0.5454545454545454,0.26955116262718004,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109463,,,,,team_total_runs,team,full_game,False,,2.5,over,,,STL,CLE,-101.0,0.5024875621890548,0.24831786208855477,eid109463:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109479,,,,,team_total_runs,team,full_game,False,,1.5,under,,,LAD,NYM,-135.0,0.574468085106383,0.29111105957006006,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109479,,,,,team_total_runs,team,full_game,False,,1.5,over,,,LAD,NYM,112.0,0.4716981132075472,0.2390324912612303,eid109479:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109585,,,,,team_total_runs,team,full_game,False,,1.5,over,,,SD,SEA,-139.0,0.5815899581589958,0.2712843705941963,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109585,,,,,team_total_runs,team,full_game,False,,1.5,under,,,SD,SEA,-110.0,0.5238095238095238,0.24433251465986366,eid109585:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109724,,,,,team_total_runs,team,full_game,False,,1.5,under,,,NYY,LAA,128.0,0.43859649122807015,0.2099828215596704,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109724,,,,,team_total_runs,team,full_game,False,,1.5,over,,,NYY,LAA,-157.0,0.6108949416342413,0.292472571227625,eid109724:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109954,,,,,team_total_runs,team,full_game,False,,2.5,under,,,OAK,TEX,-131.0,0.5670995670995671,0.27977891305841346,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,109954,,,,,team_total_runs,team,full_game,False,,2.5,over,,,OAK,TEX,108.0,0.4807692307692308,0.2371877896230678,eid109954:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110236,,,,,team_total_runs,team,full_game,False,,1.5,under,,,HOU,COL,112.0,0.4716981132075472,0.22844801030767237,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110236,,,,,team_total_runs,team,full_game,False,,2.5,over,,,HOU,COL,-116.0,0.5370370370370371,0.2600922902539944,eid110236:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110392,,,,,team_total_runs,team,full_game,False,,2.5,under,,,PHI,CHC,-143.0,0.588477366255144,0.2732302970719334,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110392,,,,,team_total_runs,team,full_game,False,,2.5,over,,,PHI,CHC,116.0,0.46296296296296297,0.21495390503910847,eid110392:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110438,,,,,team_total_runs,team,full_game,False,,1.5,under,,,DET,KC,103.0,0.49261083743842365,0.23218838870206024,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110438,,,,,team_total_runs,team,full_game,False,,1.5,over,,,DET,KC,-135.0,0.574468085106383,0.2707711826544664,eid110438:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110471,,,,,team_total_runs,team,full_game,False,,1.5,under,,,CWS,TB,124.0,0.44642857142857145,0.22388414086398373,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110471,,,,,team_total_runs,team,full_game,False,,1.5,over,,,CWS,TB,-119.0,0.54337899543379,0.27250482460595205,eid110471:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110522,,,,,team_total_runs,team,full_game,False,,1.5,under,,,ATL,MIA,109.0,0.4784688995215311,0.23864956735663684,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110522,,,,,team_total_runs,team,full_game,False,,2.5,over,,,ATL,MIA,-103.0,0.5073891625615764,0.25307434662494194,eid110522:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110876,,,,,team_total_runs,team,full_game,False,,2.5,under,,,CIN,SF,-139.0,0.5815899581589958,0.2788227826944047,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110876,,,,,team_total_runs,team,full_game,False,,2.5,over,,,CIN,SF,115.0,0.46511627906976744,0.22298358729785084,eid110876:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110888,,,,,team_total_runs,team,full_game,False,,1.5,under,,,PIT,WAS,124.0,0.44642857142857145,0.20709121074007672,eid110888:bt4:ptNone:pregame,,,,,,market_only
+Bet105,mlb,110888,,,,,team_total_runs,team,full_game,False,,2.5,over,,,PIT,WAS,-134.0,0.5726495726495726,0.265643153058724,eid110888:bt4:ptNone:pregame,,,,,,market_only
